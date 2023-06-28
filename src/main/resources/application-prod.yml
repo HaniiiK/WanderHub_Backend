@@ -3,9 +3,12 @@ spring:
     activate:
       on-profile: prod
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST}:${MYSQL_PORT}/${DATA_BASE_NAME}?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Seoul
-    username: ${MYSQL_USER_NAME}
-    password: ${MYSQL_PASSWORD}
+#    url: jdbc:mysql://${MYSQL_HOST}:${MYSQL_PORT}/${DATA_BASE_NAME}?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Seoul
+#    username: ${MYSQL_USER_NAME}
+#    password: ${MYSQL_PASSWORD}
+    url: jdbc:mysql://database-1.cnvif5sgmu7i.ap-northeast-2.rds.amazonaws.com:3306/wh2
+    username: admin
+    password: wanderhub
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
