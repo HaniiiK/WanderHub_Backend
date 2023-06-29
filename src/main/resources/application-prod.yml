@@ -23,8 +23,10 @@ spring:
       client:
         registration:
           google:
-            clientId: ${G_CLIENT_ID}
-            clientSecret: ${G_CLIENT_SECRET}
+            clientId: 302662378259-aqnm0rcqhi3vtlks8f73b2530s1r7tlj.apps.googleusercontent.com
+            clientSecret: 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
+#            clientId: ${G_CLIENT_ID}
+#            clientSecret: ${G_CLIENT_SECRET}
             scope:
               - email
               - profile
@@ -55,7 +57,8 @@ logging:
           jpa: DEBUG
 
 admin:
-  email: ${ADMIN_EMAILS}
+#  email: ${ADMIN_EMAILS}
+  email: rlagkdms26@gmail.com
 
 jwt:
   key:
