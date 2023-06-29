@@ -133,11 +133,23 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
 //                .toUri();
 //    }
 
+//        return UriComponentsBuilder
+//                .newInstance()
+//                .scheme("https")
+//                .host("backwander.kro.kr")
+//                .port(443)
+//                .path("/receive-token")
+//                .queryParams(queryParams)
+//                .build()
+//                .toUri();
+//
+//    }
+
         return UriComponentsBuilder
                 .newInstance()
-                .scheme("https")
-                .host("backwander.kro.kr")
-                .port(443)
+                .scheme("http")
+                .host("ec2-13-124-90-227.ap-northeast-2.compute.amazonaws.com")
+                .port(8080)
                 .path("/receive-token")
                 .queryParams(queryParams)
                 .build()
