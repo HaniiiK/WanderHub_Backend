@@ -30,8 +30,10 @@ spring:
               - profile
             redirect-uri: "https://backwander.kro.kr/login/oauth2/code/google"
           kakao:
-            clientId: ${K_CLIENT_ID}
-            client-secret: ${K_CLIENT_SECRET}
+            clientId: e9055e2756feca8bfdb492cd8e4ec1b5
+            client-secret: cjgvxAr0ZgEIq2CXYkpKxO049AXC1nYS
+#            clientId: ${K_CLIENT_ID}
+#            client-secret: ${K_CLIENT_SECRET}
             redirect-uri: "https://backwander.kro.kr/login/oauth2/code/kakao"
             authorization-grant-type: authorization_code
             client-authentication-method: POST
