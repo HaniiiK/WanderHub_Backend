@@ -59,6 +59,7 @@ admin:
 
 jwt:
   key:
-    secret: ${JWT_SECRET_KEY}
+    secret: undersilver09128387565undersilver09128387565undersilver09128387565undersilver09128387565undersilver09128387565gkdmsdjsejtlfqj1234567890
+#    secret: ${JWT_SECRET_KEY}
   access-token-expiration-minutes: 30
   refresh-token-expiration-minutes: 1440
