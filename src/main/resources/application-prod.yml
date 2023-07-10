@@ -30,7 +30,7 @@ spring:
             scope:
               - email
               - profile
-            redirect-uri: "http://ec2-13-124-90-227.ap-northeast-2.compute.amazonaws.com:8080/login/oauth2/code/google"
+            redirect-uri: "http://localhost:3000/oauth/redirect/google"
 #            redirect-uri: "https://backwander.kro.kr/login/oauth2/code/google"
           kakao:
             clientId: e9055e2756feca8bfdb492cd8e4ec1b5
