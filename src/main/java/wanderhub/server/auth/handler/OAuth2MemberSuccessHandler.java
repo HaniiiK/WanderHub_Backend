@@ -122,16 +122,16 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
 //      }
 
 
-//        return UriComponentsBuilder
-//                .newInstance()
-//                .scheme("http")
-//                .host("localhost")
-//                .port(3000)    // 확인하기.
-//                .path("/ouath/redirect")
-//                .queryParams(queryParams)
-//                .build()
-//                .toUri();
-//    }
+        return UriComponentsBuilder
+                .newInstance()
+                .scheme("http")
+                .host("localhost")
+                .port(3000)    // 확인하기.
+                .path("/ouath/redirect")
+                .queryParams(queryParams)
+                .build()
+                .toUri();
+    }
 
 //        return UriComponentsBuilder
 //                .newInstance()
@@ -145,15 +145,15 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
 //
 //    }
 
-        return UriComponentsBuilder
-                .newInstance()
-                .scheme("http")
-                .host("ec2-13-124-90-227.ap-northeast-2.compute.amazonaws.com")
-                .port(8080)
-                .path("/receive-token")
-                .queryParams(queryParams)
-                .build()
-                .toUri();
-
-    }
+//        return UriComponentsBuilder
+//                .newInstance()
+//                .scheme("http")
+//                .host("ec2-13-124-90-227.ap-northeast-2.compute.amazonaws.com")
+//                .port(8080)
+//                .path("/receive-token")
+//                .queryParams(queryParams)
+//                .build()
+//                .toUri();
+//
+//    }
 }
