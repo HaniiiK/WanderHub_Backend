@@ -127,7 +127,7 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
                 .scheme("http")
                 .host("localhost")
                 .port(3000)    // 확인하기.
-                .path("/ouath/redirect/receive-token")
+                .path("/oauth/redirect")
                 .queryParams(queryParams)
                 .build()
                 .toUri();
