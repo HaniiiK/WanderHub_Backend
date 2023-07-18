@@ -6,6 +6,7 @@ spring:
   datasource:
     url: jdbc:h2:~/whlocal     # 데이터베이스의 JDBC URL
     username: sa
+    password: s
   jpa:
     hibernate:                # jpa의 구현체로 hibernate 사용
       ddl-auto: create        # DDL 모드.
