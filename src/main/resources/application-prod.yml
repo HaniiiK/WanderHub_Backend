@@ -30,7 +30,6 @@ spring:
             scope:
               - email
               - profile
-            redirect-uri: "http://wanderhub.s3-website.ap-northeast-2.amazonaws.com/oauth/redirect"
 #            redirect-uri: "http://localhost:3000/oauth/redirect/google"
 #            redirect-uri: "https://backwander.kro.kr/login/oauth2/code/google"
           kakao:
