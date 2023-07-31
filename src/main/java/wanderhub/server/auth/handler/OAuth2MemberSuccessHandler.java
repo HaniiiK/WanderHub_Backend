@@ -136,7 +136,7 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
                 .newInstance()
                 .scheme("http")
                 .host("wanderhub.s3-website.ap-northeast-2.amazonaws.com")
-                .port(443)
+                .port(8080)
                 .path("/oauth/redirect")
                 .queryParams(queryParams)
                 .build()
