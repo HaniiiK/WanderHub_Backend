@@ -121,12 +121,22 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
 //                  .toUri();
 //      }
 
+//        return UriComponentsBuilder
+//                .newInstance()
+//                .scheme("http")
+//                .host("localhost")
+//                .port(3000)    // 확인하기.
+//                .path("/oauth/redirect")
+//                .queryParams(queryParams)
+//                .build()
+//                .toUri();
+//    }
 
-        return UriComponentsBuilder
+            return UriComponentsBuilder
                 .newInstance()
                 .scheme("http")
-                .host("localhost")
-                .port(3000)    // 확인하기.
+                .host("wanderhub.s3-website.ap-northeast-2.amazonaws.com")
+                .port(443)
                 .path("/oauth/redirect")
                 .queryParams(queryParams)
                 .build()
@@ -142,7 +152,6 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
 //                .queryParams(queryParams)
 //                .build()
 //                .toUri();
-//
 //    }
 
 //        return UriComponentsBuilder
@@ -154,6 +163,5 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
 //                .queryParams(queryParams)
 //                .build()
 //                .toUri();
-//
 //    }
 }
