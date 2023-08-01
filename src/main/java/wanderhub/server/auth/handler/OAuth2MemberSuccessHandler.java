@@ -135,7 +135,7 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
             return UriComponentsBuilder
                 .newInstance()
                 .scheme("https")
-                .host("https://wanderhubtravel.netlify.app")
+                .host("wanderhubtravel.netlify.app")
 //                .port(8080)
                 .path("/oauth/redirect")
                 .queryParams(queryParams)
